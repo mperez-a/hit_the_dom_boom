@@ -13,7 +13,7 @@ A client has requested the development of a landing page for his musical instrum
   <li>FIGMA</li>
   <li>VScode</li>
   <li>Trello</li>
-  <li>GIT / GITHUB</li>
+  <li>GIT / GitHub</li>
 </ul>
 
 # GOAL
