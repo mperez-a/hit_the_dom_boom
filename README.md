@@ -15,3 +15,8 @@ A client has requested the development of a landing page for his musical instrum
   <li>Trello</li>
   <li>GIT / GITHUB</li>
 </ul>
+
+# GOAL
+The objective is to make a replica of the landing page based on the design proposed by the client with the priority that the user can interact with the drum kit in such a way that when the user clicks on each of the pads it is emitted a sound.
+
+It has to be functional in any dispotive and adapt.
