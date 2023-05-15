@@ -7,3 +7,11 @@ A client has requested the development of a landing page for his musical instrum
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
+
+# Tools
+<ul>
+  <li>FIGMA</li>
+  <li>VScode</li>
+  <li>Trello</li>
+  <li>GIT / GITHUB</li>
+</ul>
