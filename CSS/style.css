@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+:root{
+  --first-color: #010020;
+  --second-color:  #ffffff;
+  --third-color: #00F482;
+  --p-color: #565072;
+  --hit-color: #202020;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--first-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: var(--second-color);
+    box-sizing: border-box;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+nav{
+    width: 40%;
+    padding: 3rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.sign-up{
+    color: var(--third-color);
+    border-right: 1px solid white;
+    padding-right: 3rem;
+}
+
+.title, .drumkit-container{
+    width: 50%;
+}
+
+
+
+
+main{
+
+    padding-left: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1rem;
+    margin: 1rem 0;
+    color: var(--p-color);
+}
+
+.hit-btn{
+    background-color: var(--third-color);
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.pricing-btn{
+    background-color: var(--second-color);
+    padding: 1rem;
+    border-radius: 2rem;
+    color: var(--first-color);
+
+
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 3rem;
+
+    
+}
