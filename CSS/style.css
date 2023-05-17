@@ -30,11 +30,11 @@ header {
 }
 
 .logo {
-    width: 20%;
+    width: 30%;
 }
 
 nav {
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
 }
@@ -99,15 +99,12 @@ p {
 
 .drumkit-container {
     width: 60%;
-    position:relative;
+    position: relative;
 }
-
-
 
 .drumkit-img {
     width: 100%;
 }
-
 
 .sound {
     opacity:0;
