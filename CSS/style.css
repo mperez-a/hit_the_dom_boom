@@ -32,8 +32,8 @@ header {
 .logo {
     width: 20%;
 }
-nav {
 
+nav {
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -48,6 +48,21 @@ a {
     color: var(--third-color);
     border-right: 1px solid white;
     padding-right: 3vw;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #00F482;
 }
 
 main {
@@ -184,3 +199,45 @@ h2 {
     font-size: 4vw;
 }
 
+@media only screen and (max-width: 576px) {
+    .hamburger-menu {
+        display: block;
+    }
+
+    .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger-menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-bar {
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--first-color);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 999;
+    }
+
+    .sign-up {
+        padding-right: 0;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-bar.active {
+        left: 0;
+    }
+}
