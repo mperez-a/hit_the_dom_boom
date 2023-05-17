@@ -98,6 +98,25 @@ p {
     position:relative;
 }
 
+
+
+.drumkit-img {
+    width: 100%;
+}
+
+
+.tom1, .tom2, .tom3, .tom4, .bombo, .crash, .hithat, .redoblante{
+    opacity:0;
+    border: none;
+    position: absolute;
+}
+
+.tom1:hover, .tom2:hover, .tom3:hover, .tom4:hover, .bombo:hover, .crash:hover, .hithat:hover, .redoblante:hover{
+    background-color: var(--hit-color);
+    opacity:100;
+    border:none;
+}
+
 .tom1 {
     position: absolute;
     width: 21%;
@@ -178,9 +197,6 @@ p {
     left: 74.5%; 
 }
 
-.drumkit {
-    width: 100%;
-}
 
 .pricing-btn {
     background-color: var(--second-color);
