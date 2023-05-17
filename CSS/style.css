@@ -89,7 +89,7 @@ p {
     padding-bottom: 21%;
     background-color: var(--second-color);
     border-radius: 50%;
-    top: 15%;
+    top: 15.5%;
     left: 27%;
 }
 
@@ -99,7 +99,7 @@ p {
     padding-bottom: 21%;
     background-color: var(--second-color);
     border-radius: 50%;
-    top: 15%;
+    top: 15.5%;
     left: 51%;
 }
 
@@ -119,8 +119,48 @@ p {
     padding-bottom: 21%;
     background-color: var(--second-color);
     border-radius: 50%;
-    top: 15%;
-    left: 51%;
+    top: 52%;
+    left: 63%;
+}
+
+.bombo {
+    position: absolute;
+    width: 15%;
+    padding-bottom: 15%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 6%;
+    left: 2%;
+}
+
+.crash{
+    position: absolute;
+    width: 15%;
+    padding-bottom: 15%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 28%;
+    left: 9.5%; 
+}
+
+.hithat{
+    position: absolute;
+    width: 15%;
+    padding-bottom: 15%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 6%;
+    left: 82%; 
+}
+
+.redoblante{
+    position: absolute;
+    width: 15%;
+    padding-bottom: 15%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 28%;
+    left: 74.5%; 
 }
 
 .drumkit {
@@ -143,3 +183,4 @@ footer {
 h2 {
     font-size: 4vw;
 }
+
