@@ -20,12 +20,12 @@
 
 
 header{
-    padding: 2rem 6rem;
+    padding: 2vw 6vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 5vw;
     
 }
 
@@ -34,65 +34,108 @@ header{
 }
 nav{
 
-    width: 40%;
+    width: 50%;
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
+  
     
 }
 
 a{
+    font-size: 1.5vw;
     text-decoration: none;
 }
 
 .sign-up{
     color: var(--third-color);
     border-right: 1px solid white;
-    padding-right: 3rem;
+    padding-right: 3vw;
+}
+
+
+
+main{
+    padding: 2vw 2vw 2vw 5vw;
+    display: flex;
+    justify-content: space-around;
 }
 
 .title {
     width: 35%;
 }
 
+
+h1{
+    font-size: 7vw;
+    line-height: 6vw;
+}
+
+p{
+    font-size: 1.8vw;
+    margin: 1.5vw 0;
+    color: var(--p-color);
+}
+
+.hit-btn{
+    background-color: var(--third-color);
+    padding: 1vw 2vw;
+    border-radius: 2vw;
+    border: none;
+}
 .drumkit-container{
     width: 60%;
+    position:relative;
+}
+
+
+.tom1{
+    position: absolute;
+    width: 21%;
+    padding-bottom: 21%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 15%;
+    left: 27%;
+}
+
+.tom2{
+    position: absolute;
+    width: 21%;
+    padding-bottom: 21%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 15%;
+    left: 51%;
+}
+
+.tom3{
+    position: absolute;
+    width: 21%;
+    padding-bottom: 21%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 52%;
+    left: 15%;
+}
+
+.tom4{
+    position: absolute;
+    width: 21%;
+    padding-bottom: 21%;
+    background-color: var(--second-color);
+    border-radius: 50%;
+    top: 15%;
+    left: 51%;
 }
 
 .drumkit{
     width: 100%;
 }
 
-main{
-    padding: 2rem 2rem 2rem 5rem;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-
-h1{
-    font-size: 4rem;
-    line-height: 4rem;
-}
-
-p{
-    font-size: 0.8rem;
-    margin: 1.5rem 0;
-    color: var(--p-color);
-}
-
-.hit-btn{
-    background-color: var(--third-color);
-    padding: 1rem;
-    border-radius: 2rem;
-    border: none;
-}
-
 .pricing-btn{
     background-color: var(--second-color);
-    padding: 1rem;
-    border-radius: 2rem;
+    padding: 1vw 2vw;
+    border-radius: 2vw;
     color: var(--first-color);
     border: none;
 
@@ -103,13 +146,14 @@ p{
 
 footer{
     text-align: center;
-    padding: 3rem;
+    padding: 3vw;
 
     
 }
 
-
-
-@media screen {
-    
+h2{
+    font-size: 4vw;
 }
+
+
+
