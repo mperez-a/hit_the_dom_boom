@@ -53,16 +53,20 @@ a {
 .hamburger-menu {
     display: none;
     cursor: pointer;
+    background-color: var(--third-color);
+    width: 15%;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .bar {
     display: block;
-    width: 25px;
+    width: 20px;
     height: 3px;
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #00F482;
+    background-color: var(--second-color);
 }
 
 main {
@@ -202,6 +206,7 @@ h2 {
 @media only screen and (max-width: 576px) {
     .hamburger-menu {
         display: block;
+        z-index: 999;
     }
 
     .hamburger-menu.active .bar:nth-child(2) {
@@ -219,14 +224,14 @@ h2 {
     .nav-bar {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 0;
         gap: 0;
         flex-direction: column;
         background-color: var(--first-color);
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        z-index: 999;
+        z-index: 998;
     }
 
     .sign-up {
