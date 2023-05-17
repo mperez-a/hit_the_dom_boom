@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-:root{
-  --first-color: #010020;
-  --second-color:  #ffffff;
-  --third-color: #00F482;
-  --p-color: #565072;
-  --hit-color: #202020;
+:root {
+    --first-color: #010020;
+    --second-color:  #ffffff;
+    --third-color: #00F482;
+    --p-color: #565072;
+    --hit-color: #202020;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: var(--first-color);
@@ -19,7 +19,7 @@
 }
 
 
-header{
+header {
     padding: 2vw 6vw;
     display: flex;
     flex-direction: row;
@@ -32,29 +32,25 @@ header{
 .logo {
     width: 20%;
 }
-nav{
+nav {
 
     width: 50%;
     display: flex;
     justify-content: space-between;
-  
-    
 }
 
-a{
+a {
     font-size: 1.5vw;
     text-decoration: none;
 }
 
-.sign-up{
+.sign-up {
     color: var(--third-color);
     border-right: 1px solid white;
     padding-right: 3vw;
 }
 
-
-
-main{
+main {
     padding: 2vw 2vw 2vw 5vw;
     display: flex;
     justify-content: space-around;
@@ -64,31 +60,30 @@ main{
     width: 35%;
 }
 
-
-h1{
+h1 {
     font-size: 7vw;
     line-height: 6vw;
 }
 
-p{
+p {
     font-size: 1.8vw;
     margin: 1.5vw 0;
     color: var(--p-color);
 }
 
-.hit-btn{
+.hit-btn {
     background-color: var(--third-color);
     padding: 1vw 2vw;
     border-radius: 2vw;
     border: none;
 }
-.drumkit-container{
+
+.drumkit-container {
     width: 60%;
     position:relative;
 }
 
-
-.tom1{
+.tom1 {
     position: absolute;
     width: 21%;
     padding-bottom: 21%;
@@ -98,7 +93,7 @@ p{
     left: 27%;
 }
 
-.tom2{
+.tom2 {
     position: absolute;
     width: 21%;
     padding-bottom: 21%;
@@ -108,7 +103,7 @@ p{
     left: 51%;
 }
 
-.tom3{
+.tom3 {
     position: absolute;
     width: 21%;
     padding-bottom: 21%;
@@ -118,7 +113,7 @@ p{
     left: 15%;
 }
 
-.tom4{
+.tom4 {
     position: absolute;
     width: 21%;
     padding-bottom: 21%;
@@ -128,32 +123,23 @@ p{
     left: 51%;
 }
 
-.drumkit{
+.drumkit {
     width: 100%;
 }
 
-.pricing-btn{
+.pricing-btn {
     background-color: var(--second-color);
     padding: 1vw 2vw;
     border-radius: 2vw;
     color: var(--first-color);
     border: none;
-
-
 }
 
-
-
-footer{
+footer {
     text-align: center;
     padding: 3vw;
-
-    
 }
 
-h2{
+h2 {
     font-size: 4vw;
 }
-
-
-
