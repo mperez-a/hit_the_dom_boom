@@ -52,25 +52,6 @@ a {
     padding-right: 3vw;
 }
 
-/*.hamburger-menu {
-    display: none;
-    cursor: pointer;
-    background-color: var(--third-color);
-    width: 15%;
-    border-radius: 15px;
-    padding: 5px;
-}
-
-.bar {
-    display: block;
-    width: 20px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: var(--second-color);
-}*/
-
 main {
     padding: 2vw 2vw 2vw 5vw;
     display: flex;
