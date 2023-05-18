@@ -11,14 +11,16 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: var(--first-color);
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     color: var(--second-color);
     box-sizing: border-box;
 }
 
-
+body{
+      background-color: var(--first-color);
+    
+}
 header {
     padding: 2vw 6vw;
     display: flex;
@@ -104,28 +106,33 @@ p {
 
 .drumkit-img {
     width: 100%;
-    clip-path: polygon(-8% 0, 105% 0, 85% 85%, 20% 100%);
-    border-radius: 1% 13% 13%;
-     /* background-color:white; */
-    /* box-shadow: 50px 50px 5px red;
-    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
+    /* border-radius: 1% 13% 13%; */
+    filter: drop-shadow(0.5rem 1rem 1rem rgba(0, 0, 0, 0.9)); 
 }
 
+/* .gradient {
+    width: 500px;
+    height: 500px;
+    /* border-radius: 1% 13% 13%; */
+    /* filter: drop-shadow(5rem 5rem 5rem rgba(255, 255, 255, 0.904)); 
+} */ 
 
 
-.gradient::after{
+
+/* .gradient::after{
     
     content: "";
     width: 70%;
     height: 110%;
     position: absolute;
     left: 15%;
-    bottom: 0%;
+    bottom: 5%;
     border-radius: 45% 45% 45% 45%;
-    background: radial-gradient(rgba(225, 221, 242, 0.1), rgba(218, 153, 229, 0.042));
+    background: radial-gradient(rgba(225, 221, 242, 0.1), rgba(235, 218, 238, 0.042));
     backdrop-filter: blur(80rem);
     box-shadow: 0 0 10px 5px rgba(86, 80, 114, 0.1);
-  }
+    filter: drop-shadow(20rem 20rem 20rem rgba(254, 254, 254, 0.927)); 
+  }  */
 
 
 .sound {
