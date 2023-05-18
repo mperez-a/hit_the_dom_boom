@@ -104,7 +104,29 @@ p {
 
 .drumkit-img {
     width: 100%;
+    clip-path: polygon(-8% 0, 105% 0, 85% 85%, 20% 100%);
+    border-radius: 1% 13% 13%;
+     /* background-color:white; */
+    /* box-shadow: 50px 50px 5px red;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2)); */
 }
+
+
+
+.gradient::after{
+    
+    content: "";
+    width: 70%;
+    height: 110%;
+    position: absolute;
+    left: 15%;
+    bottom: 0%;
+    border-radius: 45% 45% 45% 45%;
+    background: radial-gradient(rgba(225, 221, 242, 0.1), rgba(218, 153, 229, 0.042));
+    backdrop-filter: blur(80rem);
+    box-shadow: 0 0 10px 5px rgba(86, 80, 114, 0.1);
+  }
+
 
 .sound {
     opacity:0;
