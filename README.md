@@ -3,7 +3,7 @@ A client has requested the development of a landing page for his musical instrum
 
 # Tecnologies
 <ul>
-  <li>HTML</li>
+  <li><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"></li>
   <li>CSS</li>
   <li>JavaScript</li>
 </ul>
