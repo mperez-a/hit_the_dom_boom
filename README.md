@@ -23,7 +23,4 @@ It has to be functional on any device and adapt to it.
 
 # This is how the landing page looks like:
 ### Desktop:
-![Desktop_Image](templates/desktop.jfif)
-
-### Mobile:
-![Mobile Image](templates/mobile.jfif)
+![Desktop_Image](templates/desktop-version.png)
