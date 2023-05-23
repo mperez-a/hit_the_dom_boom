@@ -52,6 +52,25 @@ a {
     padding-right: 3vw;
 }
 
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    background-color: var(--third-color);
+    width: 15%;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.bar {
+    display: block;
+    width: 20px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--second-color);
+}
+
 main {
     padding: 2vw 2vw 2vw 5vw;
     display: flex;
@@ -86,8 +105,7 @@ p {
     position: relative;
 }
 
-
-.gradient {
+.gradient{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -107,7 +125,7 @@ p {
 }
 
 .sound {
-    opacity:0;
+    opacity: 0;
     border: none;
     position: absolute;
 }
@@ -188,7 +206,7 @@ p {
     left: 82%; 
 }
 
-.redoblante {
+.redoblante{
     position: absolute;
     width: 15%;
     padding-bottom: 15%;
@@ -197,7 +215,6 @@ p {
     top: 28%;
     left: 74.5%; 
 }
-
 
 .pricing-btn {
     background-color: var(--second-color);
@@ -214,4 +231,55 @@ footer {
 
 h2 {
     font-size: 2.5vw;
+}
+
+@media only screen and (max-width: 576px) {
+    .logo {
+        width: 40%;
+    }
+    .hamburger-menu {
+        display: block;
+        z-index: 999;
+    }
+
+    .hamburger-menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger-menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger-menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-bar {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        gap: 0;
+        flex-direction: column;
+        background-color: var(--first-color);
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 998;
+    }
+
+    a {
+        font-size: 1.3125em;
+    }
+
+    .sign-up {
+        padding-right: 0;
+    }
+
+    .nav-item {
+        margin: 16px 0;
+    }
+
+    .nav-bar.active {
+        left: 0;
+    }
 }
